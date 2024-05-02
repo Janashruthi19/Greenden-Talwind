@@ -1,0 +1,84 @@
+<style>
+    .container{
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+        background-color: rgba(113, 243, 236, 0.87);
+        margin: 4px;
+    }
+    .header{
+        background-color: rgb(24, 156, 112);
+        color: white;
+        margin: 10px;
+        justify-content: center;
+    
+        align-items: center;
+    }
+.middle{
+    background-color: rgba(113, 243, 236, 0.87);
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+.aside{
+    display: grid;
+    background-color: rgb(114, 224, 114);
+    color: white;
+    height: 500px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    display: grid;
+    background-color: orange;
+    color: white;
+    height: 500px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.article-subgrids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.image{
+    background-color: yellow;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: rgb(24, 156, 112);
+        color: white;
+        margin: 10px;
+        justify-content: center;
+    
+        align-items: center;
+
+}
+</style>
+
+<div class="container">
+<div class="header">header</div>
+<div class="middle">
+    <div class="main-container">
+        <div class="aside">Aside</div>
+        <div class="sidebar">Article
+            <div class="article-subgrids">
+                <div class="image">image</div>
+                <div class="image">image</div>
+                <div class="image">image</div>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+<div class="footer">Footer</div>
+</div>

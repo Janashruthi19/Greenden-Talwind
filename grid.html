@@ -1,0 +1,71 @@
+<style>
+.container{
+
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+.header{
+    background-color: rgb(116, 238, 238);
+    color: black;
+}
+.middle{
+    background-color: bisque;
+    color: black;
+}
+.footer{
+    background-color: rgb(207, 156, 255);
+    color: black;
+}
+.one{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  
+}
+.main-container{
+    background-color: rgb(100, 248, 107);
+    color: black;
+    margin: 2px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    background-color: rgb(182, 212, 126);
+    color: black;
+    margin: 2px;
+    height: 100px;
+}
+.two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.twin{
+    background-color: rgb(238, 169, 42);
+    color: black;
+    height: 100px;
+    margin: 2px;
+}
+
+</style>
+
+<div class="container">
+    <div class="header">
+header
+    </div>
+    <div class="middle">
+        <div class="one">
+            <div class="main-container">main-container</div>
+            <div class="sidebar"> side bar</div>
+        </div>
+        <div class="two">
+            <div class="twin">twin</div>
+            <div class="twin">twin</div>
+        </div>
+
+    </div>
+    <div class="footer">ffoter</div>
+
+
+</div>
